@@ -1,6 +1,5 @@
 'use strict'
 import React from "react";
-import  Button  from "@blueprintjs/core";
 
 export default function form(props) {
   
@@ -39,7 +38,8 @@ export default function form(props) {
         />
       </label>
       <label>
-        {/* <button type="submit">Add Item</button> */}
+        <button  type="submit" icon="">Add Item</button>
+
       </label>
     </form>
   );
